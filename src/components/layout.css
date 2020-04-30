@@ -8,19 +8,31 @@ body {
 }
 
 nav {
-  background: #222;
+  background: skyblue;
   padding: 5px 20px;
-}
-
-ul li {
-  text-align: center;
-  margin: 15px auto;
-}
-
-ul {
-  list-style-type: none;
 }
 
 .navLinks {
   text-decoration: none;
+  color: black;
+}
+
+.navBar {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.navBar > span {
+  padding: 1.5rem;
+}
+
+.navLogo {
+  position: absolute;
+  left: 1.5rem;
+}
+
+header {
+  padding-bottom: 3rem;
 }
