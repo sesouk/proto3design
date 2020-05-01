@@ -9,15 +9,17 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <MainLogo />
-    <h1>"Concept, Design, Prototype"</h1>
+    <h1 className='title'>"Concept, Design, Prototype"</h1>
     <p>Welcome to Proto 3design. Our company's main goal is bringing your ideas to life. From concept, designing, to prototyping.</p>
     <div>
       <p>Services we provide:</p>
-      <div>
-        <span><Link className="navLinks" to="/concepting/">Concepting</Link></span>
-        <span><Link className="navLinks" to="/designing/">Designing</Link></span>
-        <span><Link className="navLinks" to="/prototyping/">Prototyping</Link></span>
-        <span><Link className="navLinks" to="/3dprinting/">3d Printing</Link></span>
+      <div className='services'>
+        <span className='services__holder'><Link className='services__holder--link' to="/concepting/"><p>Concepting</p></Link></span>
+        <span className='services__holder'><Link className='services__holder--link' to="/designing/"><p>Designing</p></Link></span>
+      </div>
+      <div className='services'>  
+        <span className='services__holder'><Link className='services__holder--link' to="/prototyping/"><p>Prototyping</p></Link></span>
+        <span className='services__holder'><Link className='services__holder--link' to="/3dprinting/"><p>3d Printing</p></Link></span>
       </div>
     </div>
   </Layout>

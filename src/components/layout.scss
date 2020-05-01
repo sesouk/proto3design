@@ -1,0 +1,145 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+$xs: 375px;
+$sm: 576px;
+$md: 768px;
+$lg: 992px;
+$xl: 1200px;
+
+@mixin xs {
+  @media (min-width: #{$xs}) {
+      @content;
+  }
+}
+
+@mixin sm {
+  @media (min-width: #{$sm}) {
+      @content;
+  }
+}
+
+@mixin md {
+  @media (min-width: #{$md}) {
+      @content;
+  }
+}
+
+@mixin lg {
+  @media (min-width: #{$lg}) {
+      @content;
+  }
+}
+
+@mixin xl {
+  @media (min-width: #{$xl}) {
+      @content;
+  }
+}
+
+html {
+  background: linear-gradient(55deg, rgba(52,101,134,1) 0%, rgba(115,151,183,1) 50%, rgba(87,152,190,1) 100%);
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.bodyContainer {
+  height: 100vh;
+}
+
+p {
+  padding-top: 2rem;
+  font-size: 13pt;
+}
+
+.title {
+  text-align: center;
+  padding: 2rem 0 2rem 0;
+}
+
+header {
+  padding-bottom: 1rem;
+}
+
+nav {
+  padding: 5px 20px;
+}
+
+footer {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  font-size: 10px;
+}
+
+.contact {
+  font-size: 13pt;
+  text-align: center;
+  
+  &__holder {
+
+    &--label {
+      padding: 1rem 0 1rem 0;
+    }
+
+    &--input {
+      font-size: 18px;
+      width: 15rem;
+      height: 1.2rem;
+    }
+
+    &--addInfo {
+      width: 15rem;
+      height: 3.5rem;
+    }
+  }
+
+  &__btnHldr {
+    padding-top: .8rem;
+
+    &--btn {
+      width: 10rem;
+      height: 1.5rem;
+    }
+  }
+}
+
+
+
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  align-items: center;
+  font-weight: bold;
+
+  &__logo {
+    position: absolute;
+    left: 2.7rem;
+  }
+
+  &__holder {
+    padding: 1.5rem;
+
+    &--link {
+      text-decoration: none;
+      color: black;
+    }
+  }
+}
+
+.services {
+  display: flex;
+
+  &__holder {
+    padding: 0 5rem 0 0;
+    &--link {
+      color: black;
+      text-decoration: none;
+    }
+  }
+}
