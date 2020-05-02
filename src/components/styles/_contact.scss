@@ -1,34 +1,44 @@
 .contact {
   text-align: center;
-  font-size: 9pt;
+  font-size: 11pt;
 
   @include sm {
-    font-size: 11pt;
-  }
-  @include md {
     font-size: 13pt;
   }
-  @include lg {
+  @include md {
     font-size: 15pt;
   }
-  @include xl {
+  @include lg {
     font-size: 17pt;
   }
   
   &__holder {
 
     &--label {
-      padding: 1rem 0 1rem 0;
+      padding: .6rem 0 .6rem 0;
+
+      @include sm {
+        padding: .8rem 0 .8rem 0;
+      }
+      @include md {
+        padding: 1rem 0 1rem 0;
+      }
     }
 
     &--input {
-      height: 1.2rem;
+      height: 1rem;
+      @include md {
+        height: 1.2rem;
+      }
       @include contact;
     }
 
     &--addInfo {
-      height: 3.5rem;
+      height: 3rem;
       @include contact;
+      @include md {
+        height: 3.5rem;
+      }
     }
   }
 
@@ -36,7 +46,6 @@
     padding-top: .8rem;
 
     &--btn {
-      width: 10rem;
       height: 1.5rem;
       @include contact;
     }
