@@ -1,0 +1,31 @@
+.contact {
+  font-size: 15pt;
+  text-align: center;
+  
+  &__holder {
+
+    &--label {
+      padding: 1rem 0 1rem 0;
+    }
+
+    &--input {
+      height: 1.2rem;
+      @include contact;
+    }
+
+    &--addInfo {
+      height: 3.5rem;
+      @include contact;
+    }
+  }
+
+  &__btnHldr {
+    padding-top: .8rem;
+
+    &--btn {
+      width: 10rem;
+      height: 1.5rem;
+      @include contact;
+    }
+  }
+}

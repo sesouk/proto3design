@@ -5,11 +5,11 @@ import SmallLogo from './smallLogo'
 
 const Header = ({ siteTitle }) => (
   <header>
+        <div className='logo'>
+          <span><Link className="logo__link" to="/"><SmallLogo /></Link></span>
+        </div>
     <nav>
       <div className='nav'>
-        <div className='nav__logo'>
-          <span><Link className="nav__logo--link" to="/"><SmallLogo /></Link></span>
-        </div>
         <span className='nav__holder'><Link className="nav__holder--link" to="/concepting/">Concepting</Link></span>
         <span className='nav__holder'><Link className="nav__holder--link" to="/designing/">Designing</Link></span>
         <span className='nav__holder'><Link className="nav__holder--link" to="/prototyping/">Prototyping</Link></span>

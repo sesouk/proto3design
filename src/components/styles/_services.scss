@@ -1,0 +1,37 @@
+.image {
+  display: block; 
+  margin: 0 auto;
+  height: 150px;
+
+  @include sm {
+    height: 200px;
+  }
+  @include md {
+    height: 250px;
+  }
+  @include lg {
+    height: 350px;
+  }
+  @include xl {
+    height: 400px;
+  }
+}
+
+.title {
+  text-align: center;
+  padding: 2rem 0 2rem 0;
+  font-size: 20pt;
+
+  @include sm {
+    font-size: 22pt;
+  }
+  @include md {
+    font-size: 24pt;
+  }
+  @include lg {
+    font-size: 26pt;
+  }
+  @include xl {
+    font-size: 28pt;
+  }
+}

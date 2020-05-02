@@ -9,7 +9,7 @@ const Concepting = () => (
     <SEO title="Concepting" />
     <div className='bodyContainer'>
     <h1 className='title'>Concepting</h1>
-    <img style={{ display: 'block', margin: '0 auto', height: '350px' }} src={concept} alt='concepting'/>
+    <img className='image' src={concept} alt='concepting'/>
     <p>	Our team of highly skilled engineers and designers will listen to the need of your company or to your idea and help guide you to a solution. They will work with you in coming up with a mechanical solution to the problem or bring your idea to life. </p>
   </div>
   </Layout>

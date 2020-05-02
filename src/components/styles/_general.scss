@@ -1,0 +1,42 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  background: linear-gradient(55deg, rgba(52,101,134,1) 0%, rgba(115,151,183,1) 50%, rgba(87,152,190,1) 100%);
+  height: 100vh;
+}
+
+body {
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.bodyContainer {
+  height: 100vh;
+}
+
+p {
+  padding-top: 2rem;
+  font-size: 11pt;
+
+  @include sm {
+    font-size: 13pt;
+  }
+  @include md {
+    font-size: 15pt;
+  }
+  @include lg {
+    font-size: 17pt;
+  }
+  @include xl {
+    font-size: 19pt;
+  }
+}
+
+footer {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  font-size: 8px;
+}

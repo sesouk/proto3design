@@ -1,0 +1,42 @@
+header {
+  padding-bottom: 1rem;
+}
+
+nav {
+  padding: 5px 20px;
+}
+
+.logo {
+  position: absolute;
+  padding: 1.5rem;
+}
+
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  align-items: center;
+
+  &__holder {
+    padding: 1rem;
+    font-weight: 700;
+    font-size: 15pt;
+
+    &--link {
+      text-decoration: none;
+      color: black;
+    }
+  }
+}
+
+.services {
+  display: flex;
+
+  &__holder {
+    padding: 0 5rem 0 0;
+    &--link {
+      color: black;
+      text-decoration: none;
+    }
+  }
+}
