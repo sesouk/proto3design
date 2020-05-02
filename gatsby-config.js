@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Proto 3design`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    description: `Welcome to Proto 3design. Our company's main goal is bringing your ideas to life. From concept, designing, to prototyping.`,
     author: `Kevin Tran`,
   },
   plugins: [
