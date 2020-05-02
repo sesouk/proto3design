@@ -1,6 +1,19 @@
 .contact {
-  font-size: 15pt;
   text-align: center;
+  font-size: 9pt;
+
+  @include sm {
+    font-size: 11pt;
+  }
+  @include md {
+    font-size: 13pt;
+  }
+  @include lg {
+    font-size: 15pt;
+  }
+  @include xl {
+    font-size: 17pt;
+  }
   
   &__holder {
 
