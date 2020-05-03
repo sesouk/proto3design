@@ -37,7 +37,7 @@ const Layout = ({ children }) => {
         <footer>
           © {new Date().getFullYear()}, Built by
           {` `}
-          <a style={{ color: 'black', textDecoration: 'none'}} href="https://sesouk.com">Kevin Sesouk Tran</a>
+          <a style={{ color: 'white', textDecoration: 'none'}} href="https://sesouk.com">Kevin Sesouk Tran</a>
         </footer>
       </div>
     </>
